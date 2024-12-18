@@ -1,0 +1,26 @@
+Hello Business Analyst Recruiters! 👋
+
+I'm excited to share a recent project I completed that combines my passion for data analysis with real-world business insights. I conducted an in-depth analysis of Walmart's sales data to explore how various factors, such as temperature and holidays, impact weekly sales. This project allowed me to hone my skills in SAS programming, statistical modeling, and data cleaning techniques.
+
+Project Highlights:
+
+Data Cleaning Challenges: The initial dataset had inconsistencies, including incomplete years where 2010 started in February and 2012 ended in October, missing many key holidays. To ensure a complete and accurate analysis, I adjusted the dataset to include only the full year of 2011, which provided a consistent timeframe with all holidays accounted for. Additionally, I used the text-to-columns technique to correct data formatting issues, ensuring accuracy in my analysis.
+Data Analysis with SAS: Utilized SAS procedures like PROC CORR and PROC SGSCATTER to analyze relationships between weekly sales and temperature, along with regression analysis to explore the impact of holidays on sales.
+Handling Large Datasets: Managed and processed a substantial dataset efficiently, addressing challenges such as rendering graphs with a high number of observations.
+Investigating Holiday Impact: Created a holiday indicator variable to assess the effect of holidays on sales using regression analysis. Discovered meaningful patterns that could inform business strategies.
+
+Key Insights from the Data:
+
+Holidays Boost Sales: The analysis showed that weeks containing holidays significantly increased weekly sales, highlighting the importance of holiday periods for retail strategies.
+Temperature Has a Minimal Negative Impact: There was a slight negative correlation between temperature and weekly sales, suggesting that higher temperatures are associated with a marginal decrease in sales, but this effect was not as pronounced as the holiday impact.
+Fuel Price Insignificance: Despite being considered, fuel price variations did not significantly affect weekly sales, indicating that other factors play a more critical role in driving sales performance.
+Economic Indicators Matter: Variables like CPI and unemployment were significant predictors of sales, with higher CPI associated with reduced sales, reflecting consumer sensitivity to broader economic conditions.
+Predictive Model for Sales:
+
+Why This Matters:
+
+In today's data-centric world, extracting actionable insights from large datasets is crucial for businesses to stay competitive. This project not only provided valuable findings for retail sales strategies but also demonstrated how careful data preparation and analysis can uncover key business drivers.
+
+Next Steps:
+
+I'm looking forward to applying these insights in collaborative environments, contributing to data-driven projects that make a tangible impact. If you're interested in discussing data analysis, data cleaning techniques, SAS programming, or potential opportunities, feel free to connect!
