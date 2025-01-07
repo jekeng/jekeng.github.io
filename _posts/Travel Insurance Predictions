@@ -1,0 +1,77 @@
+Joseph Ekeng - Data Analytics Portfolio
+Hi, I'm Joseph, and I'm a Data Analyst. My portfolio showcases data-driven projects with a strong focus on actionable insights and strategic business impacts. Check out my GitHub for more projects or connect with me on LinkedIn!
+📍 Toronto, ON
+🔗 [GitHub](#) | [LinkedIn](#) | [Resume](#)
+Consumer Profiles and Purchasing Drivers in Travel Insurance
+- Tools Used: Python, Scikit-learn, Pandas, Matplotlib, Seaborn
+- Key Techniques: Logistic Regression, Decision Tree Classifier, K-Means Clustering
+
+Original Dataset
+https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data
+
+Exploring the Demographics and Key Factors Influencing Travel Insurance Purchases
+*15-minute read*
+Table of Contents
+1. Project Overview
+   - Context
+   - Actions
+   - Results
+   - Growth/Next Steps
+2. Dataset and Preprocessing
+3. Decision Tree Analysis
+4. Logistic Regression Analysis
+5. Major Findings and Recommendations
+6. Discussion & Future Improvements
+Project Overview
+Context
+The study aimed to analyze consumer data to identify key drivers of travel insurance purchases. Using demographic and travel-related features, the goal was to enhance targeted marketing strategies, improve customer retention, and guide product development.
+Actions
+1. Cleaned and prepared a dataset of 1,986 records for analysis.
+2. Applied three main analytical techniques: Decision Tree, Logistic Regression, and K-Means Clustering.
+3. Evaluated models for accuracy and interpretability to derive meaningful insights.
+4. Segmented customers into actionable clusters using K-Means for personalized marketing.
+Results
+- Decision Tree Accuracy: 83%
+- Logistic Regression Accuracy: 74%
+- Key predictors included frequent flyer status, international travel, and age.
+Growth/Next Steps
+1. Address dataset limitations by incorporating additional variables such as risk perception.
+2. Expand to larger datasets for improved model generalizability.
+3. Automate scoring models to prioritize high-value customers.
+Data Insights
+Dataset and Preprocessing
+- Source: 2019 dataset of Indian customers.
+- Features: Demographic, travel, and insurance-specific variables.
+- Preprocessing Steps:
+  - Removed missing values and irrelevant columns.
+  - Standardized numerical data.
+  - Converted categorical variables using one-hot encoding.
+Analysis Highlights
+1. Decision Tree Analysis
+- Methodology: Limited depth to prevent overfitting. Used Gini Impurity to split nodes.
+- Findings:
+  - Likelihood of purchase increases for individuals older than 32.5 years, earning over 1.7M Rupees, with smaller families, and no chronic diseases.
+- Metrics:
+  - Accuracy: 83%
+  - F1 Score: 0.72
+- Visualization: The full decision tree was plotted to demonstrate key decision points.
+2. Logistic Regression Analysis
+- Methodology: Evaluated odds ratios for feature impact.
+- Findings:
+  - Frequent flyers are 42.6% more likely to purchase insurance.
+  - Customers who have traveled abroad are 125.9% more likely to purchase insurance.
+  - Age, employment type, and chronic diseases negatively influenced likelihood.
+- Metrics:
+  - Accuracy: 74%
+  - F1 Score: 0.73
+Recommendations
+1. Targeted Marketing Campaigns: Focus on high-income, older age brackets for premium products.
+2. Loyalty Programs: Develop incentives for frequent flyers.
+3. Product Innovation:
+   - Family-oriented plans with bundled discounts.
+   - Multi-trip packages for frequent travelers.
+4. Operational Efficiency: Use logistic regression probability scores to prioritize leads.
+Discussion & Future Steps
+1. Enhance data granularity by including variables like customer risk perception.
+2. Investigate mismatches in findings between models for refined parameter prioritization.
+3. Explore alternative clustering methods and distance metrics for improved segmentation.
