@@ -17,9 +17,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # About Section
 subtitle: Business Analyst <span style="color:#f58506"> Portfolio </span>
 location: "Toronto, CAN"
-resume_url: docs/Joseph_Ekeng_February.pdf
+resume_url: docs/Joseph Ekeng February.pdf
 avatar_image: img/linkedinphoto.jpg
-
 #-------------------------------
 # Contact links
 linkedln: "https://www.linkedin.com/in/joseph-ekeng-477171121/" # Add your linkedln handle
