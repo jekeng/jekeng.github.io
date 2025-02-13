@@ -23,9 +23,9 @@ avatar_image: img/linkedinphoto.jpg
 #-------------------------------
 # Contact links
 linkedln: "https://www.linkedin.com/in/joseph-ekeng-477171121/" # Add your linkedln handle
-github: "https://ddondada9.github.io/"  # Add your github handle
+github: "https://jekeng.github.io/"  # Add your github handle
 
-paginate: 6
+paginate: 10
 paginate_path: "/page/:num"
 
 sass:
